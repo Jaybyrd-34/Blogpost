@@ -1,6 +1,6 @@
 # Day in the life
 
-Today I am learning how to markdown a webpage with the basic_Mark Down_ language. As of right now it is very easy to understand and intuitive to write with. Initially I thought the only markdown language was html, which I think I have a pretty good handle on, but it has taken my a little over a month to fully feel comfutable and remember the syntax of. It is nice to know that all I have to do to get a quick webpage up is use a few symbols and voala, I have a basic page ready to go.
+Today I am learning how to markdown a webpage with the basic_Mark Down_ language. As of right now it is very easy to understand and intuitive to write with. Initially I thought the only markdown language was html, which I think I have a pretty good handle on, but it has taken me a little over a month to fully feel comfortable and remember the syntax of it. It is nice to know that all I have to do to get a quick webpage up is use a few symbols and voala, I have a basic page ready to go.
 
 ## Git and Github
 
@@ -10,9 +10,6 @@ I have started to learn how to use Github and make commits and push requests. I 
 $ git init: in current project directory to make repository
 * to see new repository
 $ ls -a : use the -a because . files are hidden
-
-
-
 * To add file in terminal
 $ git add file_name.html
 * To commit file
