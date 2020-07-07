@@ -8,15 +8,38 @@ I have started to learn how to use Github and make commits and push requests. I 
 ### To make a git save step by step
 * to make git repository
 $ git init: in current project directory to make repository
+
 * to see new repository
 $ ls -a : use the -a because . files are hidden
+
 * To add file in terminal
 $ git add file_name.html
+
 * To commit file
 $ git commit -m "add a short, descriptive present tense commit message here describing the changes made"
+
 * To review git information
 1. git log : lists commit history for current branch
 2. git status: lists the files where changes have been made to be commited.
 3. git about: lists the information about the currently assigned name of author
+
+### To make Github remote repository
+* log into Github and create new repository
+* Name repository the same as project directory and click create
+
+### To push my code to remote repository
+* navigate to project directory in command line
+ type $ git status to make sure all changes are commited and ready.
+
+* Now tell git where our remote repository is by providing the web address.
+$ git remote add // with nickname and url to web address
+example: $ git remote add jt https://github.com/Jaybyrd-34/blogpost
+
+* to see that git has done this
+$ git remote -v : will show all remotes stored in it
+
+* to push the code
+$ git push // nick name master
+this will push the code to the remote
 
 
